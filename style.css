@@ -1,0 +1,17 @@
+.Rubrik{
+    background-color: #9DE2FF;
+    display: grid;
+}
+body{
+    display: grid;    
+}
+body img{
+    height: 100px;
+}
+header{
+    grid-template-columns: 30% 40% 40%;
+}
+.head{
+    height: 200px;
+    background-color: green;
+}
