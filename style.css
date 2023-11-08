@@ -34,6 +34,7 @@ main{
     grid-column-end: 2;
     background-color: #9DE2FF;
     margin-left: 20px;
+    margin-right: 10px;
     height: 80px;
 }
 .PortionLiten{
@@ -53,10 +54,13 @@ main{
     grid-column-end: 3;
     background-color: #9DE2FF;
     height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .howtodoliten{
     background-color: black;
-    width: 270px;
+    width: 350px;
+    margin: auto;
 }
 .howtodoliten h2{
     color: white;
@@ -73,5 +77,24 @@ main{
     letter-spacing: 2px;
 }
 ol{
-    margin-top: 50px;
+    margin-top: 40px;
+}
+.näringstor{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #9DE2FF;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.näringliten{
+    background-color: black;
+    width: 350px;
+    margin: auto;
+}
+.näringliten h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
 }
