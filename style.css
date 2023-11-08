@@ -1,19 +1,26 @@
 header{
-    background-color: #9DE2FF;
-}
-body{
-    display: grid;    
-}
-.grid{
+    height: 400px;
+    border: black 2px solid;
+    padding: 20px;
     display: grid;
-    grid-template-columns: 500px 500px;
-    gap: 100px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    border-radius: 50px;
 }
-.head{
-    height: 200px;
-    background-color: green;
+.rubrik{
+    background-color: #9DE2FF;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: black 1px solid;
+
 }
 .bild img{
-    width: 500px;
-    margin-left: 50px;
+    height: 400px;
+    border-radius: 50px;
+    border: black 1px solid;
+}
+body{
+    background-color: #7DFF72;
 }
