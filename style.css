@@ -24,3 +24,26 @@ header{
 body{
     background-color: #7DFF72;
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+}
+.PortionStor{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #9DE2FF;
+    margin-left: 20px;
+}
+.PortionLiten{
+    background-color: black;
+    border-radius: 1000px;
+    width: 230px;
+    margin: auto;
+}
+.PortionLiten h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+}
