@@ -30,10 +30,11 @@ main{
     grid-template-rows: 1fr 4fr 4fr;
 }
 .PortionStor{
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
     background-color: #9DE2FF;
     margin-left: 20px;
+    height: 80px;
 }
 .PortionLiten{
     background-color: black;
@@ -46,4 +47,31 @@ main{
     text-align: center;
     font-size: 35px;
     margin: 20px;
+}
+.howtodostor{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #9DE2FF;
+    height: fit-content;
+}
+.howtodoliten{
+    background-color: black;
+    width: 270px;
+}
+.howtodoliten h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+.howtodostor li{
+    margin-top: 20px;
+    width: 220px;
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+ol{
+    margin-top: 50px;
 }
