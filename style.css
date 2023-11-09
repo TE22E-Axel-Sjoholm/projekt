@@ -27,13 +27,13 @@ body{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr 4fr;
+    grid-template-rows: 80px 30px 470px;
 }
 .PortionStor{
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: #9DE2FF;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 10px;
     height: 80px;
 }
@@ -52,8 +52,10 @@ main{
 .howtodostor{
     grid-column-start: 2;
     grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     background-color: #9DE2FF;
-    height: fit-content;
+    height: 580px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -100,4 +102,18 @@ ol{
 }
 .näringstor p{
     font-size: 25px;
+    width: 225px;
+    letter-spacing: 1px;
+    margin-left: 30px;
 }
+.IngridienserStor{
+    background-color: #9DE2FF;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.IngridienserLiten
