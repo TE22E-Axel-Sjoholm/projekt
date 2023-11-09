@@ -31,6 +31,10 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px 30px 470px;
+    border: black 2px solid;
+    border-radius: 50px;
+    padding: 25px;
+    margin-top: 10px;
 }
 .PortionStor{
     grid-column-start: 1;
@@ -66,7 +70,7 @@ main{
 }
 .howtodoliten{
     background-color: black;
-    width: fit-content;
+    width: 250px;
     margin: auto;
 }
 .howtodoliten h2{
@@ -97,7 +101,7 @@ ol{
 }
 .näringliten{
     background-color: black;
-    width: fit-content;
+    width: 250px;
     margin: auto;
 }
 .näringliten h2{
@@ -114,7 +118,7 @@ ol{
 }
 .IngridienserStor{
     background-color: #9DE2FF;
-    height: fit-content;
+    height: auto;
     margin-left: 10px;
     margin-right: 10px;
     grid-column-start: 1;
@@ -125,7 +129,7 @@ ol{
 }
 .IngridienserLiten{
     background-color: black;
-    width: fit-content;
+    width: 250px;
     margin: auto;
 }
 .IngridienserLiten h2{
@@ -136,4 +140,19 @@ ol{
 }
 ul{
     list-style: none;
+}
+.IngridienserStor li{
+    margin-top: 5px;
+    width: 220px;
+    margin-left: 5px;
+    margin-right: auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.IngridienserStor img{
+    height: 150px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
 }
