@@ -156,3 +156,15 @@ ul{
     display: flex;
     justify-content: center;
 }
+.femstarsbild img{
+    width: 377px;
+}
+.femstarsbild{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 212px;
+}
