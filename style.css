@@ -14,12 +14,15 @@ header{
     font-size: 20px;
     border-radius: 50px;
     border: black 1px solid;
-
+    width: 581.396px;
+    justify-self: right;
 }
 .bild img{
     height: 400px;
+    width: 581.396px;
     border-radius: 50px;
     border: black 1px solid;
+    justify-self: left;
 }
 body{
     background-color: #7DFF72;
@@ -36,6 +39,7 @@ main{
     margin-left: 10px;
     margin-right: 10px;
     height: 80px;
+    width: auto;
 }
 .PortionLiten{
     background-color: black;
@@ -56,12 +60,13 @@ main{
     grid-row-end: 2;
     background-color: #9DE2FF;
     height: 580px;
+    width: auto;
     margin-left: 10px;
     margin-right: 10px;
 }
 .howtodoliten{
     background-color: black;
-    width: 350px;
+    width: fit-content;
     margin: auto;
 }
 .howtodoliten h2{
@@ -88,10 +93,11 @@ ol{
     height: fit-content;
     margin-left: 10px;
     margin-right: 10px;
+    width: auto;
 }
 .näringliten{
     background-color: black;
-    width: 350px;
+    width: fit-content;
     margin: auto;
 }
 .näringliten h2{
@@ -115,5 +121,16 @@ ol{
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+    width: auto;
 }
-.IngridienserLiten
+.IngridienserLiten{
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+.IngridienserLiten h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
